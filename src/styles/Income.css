@@ -1,0 +1,16 @@
+.income-container {
+}
+.income-box {
+        margin-right: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-container {
+    gap: 10px;
+    margin-top: 15px;
+}
+
+ul {
+    list-style-type: none;
+}

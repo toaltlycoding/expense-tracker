@@ -1,10 +1,9 @@
 import { useState } from 'react';
 import CurrencyInput from 'react-currency-input-field';
-import '../styles/AddTransaction.css';
+import '../styles/Expense.css';
 import TotalExpense from './TotalExpense';
 
-const AddTransaction = () => {
-    const [items, setItems] = useState([]);
+const AddTransaction = ({items, setItems}) => {
     const [inputValue, setInputValue] = useState('');
     const [description, setDescription] = useState('');
 
